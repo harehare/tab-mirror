@@ -1,0 +1,18 @@
+{
+    "hosting": {
+        "public": "target/scala-3.2.1/scalajs-bundler/main",
+        "ignore": [
+            "firebase.json",
+            "**/.*",
+            "**/node_modules/**",
+            "*.webpack.config.js",
+            "*.js.map"
+        ],
+        "rewrites": [
+            {
+                "source": "**",
+                "destination": "/index.html"
+            }
+        ]
+    }
+}
